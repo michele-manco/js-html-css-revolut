@@ -1,7 +1,7 @@
 // $('.menu-items').click(function(){
-//   $(this).children('.dropd-menu').toggle();
+//   $(this).children('.dropd-menu').slideToggle();
 // })
-
+//
 
 
 // $('.menu-items').click(function() {
@@ -13,6 +13,9 @@
 //   }
 //
 // });
+
+
+//
 $('.menu-items').click(function() {
 
   $('.dropd-menu').slideUp();

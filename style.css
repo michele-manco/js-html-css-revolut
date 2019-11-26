@@ -54,6 +54,7 @@ text-transform: uppercase;
   padding-left: 30px;
   color: #394c5d;
   font-size: 14px;
+  padding-left: 50px;
 }
 .menu-right a:hover{
   color: black;
@@ -65,9 +66,17 @@ text-transform: uppercase;
 .dropd-menu{
   display: none;
   position: absolute;
+  width: 160px;
+  background-color: #a0c5e8;
 }
 .dropdown-menu-item{
   display: block;
+}
+.dropdown-menu-item a{
+  text-align: center;
+}
+i {
+  padding-right: 20px;
 }
 /* .menu-items:hover .dropd-menu{
   display: block;
