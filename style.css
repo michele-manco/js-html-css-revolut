@@ -50,6 +50,8 @@ text-transform: uppercase;
 }
 .menu-right a{
   line-height: 124px;
+  text-transform: lowercase;
+  text-transform: capitalize;
   text-decoration: none;
   padding-left: 30px;
   color: #394c5d;
@@ -57,7 +59,8 @@ text-transform: uppercase;
   padding-left: 50px;
 }
 .menu-right a:hover{
-  color: black;
+  /* color: black; */
+  text-shadow: 1px 1px 2px #81c0e9;
 }
 .menu-items{
   display: inline-block;
